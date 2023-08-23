@@ -1,0 +1,42 @@
+html, #header>h1, body {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    background-color:rgb(236, 241, 241);
+    padding: 15px;
+    padding-left: 65px;
+    grid-column: 1 / 5;
+}
+
+#sidebar {
+    padding: 15px;
+    background-color: aqua;
+}
+
+#tasks {
+    display: grid;
+    grid-template-rows: auto 100px;
+    padding: 15px;
+}
+
+#new {
+    display: flex;
+    justify-self: flex-end;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 75px;
+    padding: 10px;
+}
