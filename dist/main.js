@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html, #header>h1, body {\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;\n    display: flex;\n    background-color: #8EE4AF;\n    justify-content: center;\n    align-items: center;\n    width: 100vw;\n    height: 100vh;\n}\n\n#window {\n    display: grid;\n    width: 75%;\n    height: 75%;\n    grid-template-columns: 1fr 4fr;\n    grid-template-rows: auto 1fr;\n}\n\n#header {\n    display: flex;\n    background-color:#05386B;\n    color: white;\n    padding: 15px;\n    padding-left: 50px;\n    grid-column: 1 / 5;\n    align-items: center;\n    padding-top: 25px;\n}\n\n#sidebar {\n    padding: 15px;\n    background-color: #379683;\n    color: white;\n    font-size: larger;\n    font-weight: bolder;\n}\n\ntable {\n    width: 1000px;\n}\n\n#content {\n    display: grid;\n    grid-template-rows: auto 100px;\n    padding: 15px;\n    background-color: #EDF5E1;\n}\n\n#new {\n    display: flex;\n    justify-self: flex-end;\n    align-self: center;\n    align-items: center;\n    justify-content: center;\n    margin-right: 75px;\n    padding: 10px;\n    background-color: #05386B;\n    border: 0;\n    color: white;\n    font-size: larger;\n    font-weight: bolder;\n    border-radius: 10px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html, #header>h1, body {\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;\n    display: flex;\n    background-color: #8EE4AF;\n    justify-content: center;\n    align-items: center;\n    width: 100vw;\n    height: 100vh;\n}\n\n#window {\n    display: grid;\n    width: 75%;\n    height: 75%;\n    grid-template-columns: 1fr 4fr;\n    grid-template-rows: auto 1fr;\n}\n\n#header {\n    display: flex;\n    background-color:#05386B;\n    color: white;\n    padding: 15px;\n    padding-left: 50px;\n    grid-column: 1 / 5;\n    align-items: center;\n    padding-top: 25px;\n}\n\n#sidebar {\n    padding: 15px;\n    background-color: #379683;\n    color: white;\n    font-size: larger;\n    font-weight: bolder;\n}\n\ntable {\n    width: 1000px;\n}\n\n#content {\n    display: grid;\n    grid-template-rows: auto 75px;\n    background-color: #EDF5E1;\n}\n\n#tasks {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 10px;\n    height: 500px;\n    overflow-y: auto;\n    padding-top: 20px;\n}\n\n#task {\n    display: flex;\n    align-items: center;\n    min-height: 35px;\n    width: 750px;\n    gap: 10px;\n    border: 1px solid black;\n}\n\n#priority-box {\n    color: green;\n    font-size: 25px;\n    font-weight: bolder;\n    padding-left: 25px;\n    padding-top: 5px;\n}\n\n#checkbox {\n    display: flex;\n    width: 25px;\n}\n\n#new {\n    display: flex;\n    justify-self: flex-end;\n    align-self: center;\n    margin-right: 75px;\n    padding: 10px;\n    background-color: #05386B;\n    border: 0;\n    color: white;\n    font-size: larger;\n    font-weight: bolder;\n    border-radius: 10px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _task__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./task */ \"./src/task.js\");\n\n\n\nlet test = new _task__WEBPACK_IMPORTED_MODULE_1__[\"default\"](\"test\", \"this is a test\", \"high\");\n\ntest.printOneLine();\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _task__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./task */ \"./src/task.js\");\n/* harmony import */ var _checkbox_blank_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./checkbox-blank.svg */ \"./src/checkbox-blank.svg\");\n/* harmony import */ var _checkbox_checked_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./checkbox-checked.svg */ \"./src/checkbox-checked.svg\");\n\n\n\n\n\nlet sampleTask = new _task__WEBPACK_IMPORTED_MODULE_1__[\"default\"](\"sample project\", \"this is a sample task\", \"high\");\n\nsampleTask.taskDomMaker();\n\n//# sourceURL=webpack://to-do-list/./src/index.js?");
 
 /***/ }),
 
@@ -126,7 +126,27 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ task)\n/* harmony export */ });\nclass task {\n    constructor (project, task, priority) {\n        this.project = project;\n        this.task = task;\n        this.priority = priority;\n    }\n\n    printOneLine() {\n        const main = document.getElementById(\"tasks\");\n        \n        const oneLine = document.createElement(\"div\");\n    \n        const makeOneLine = this.project + this.task + this.priority;\n        oneLine.textContent = makeOneLine;\n        main.appendChild(oneLine);\n    }\n}\n\n//# sourceURL=webpack://to-do-list/./src/task.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ task)\n/* harmony export */ });\n/* harmony import */ var _checkbox_blank_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./checkbox-blank.svg */ \"./src/checkbox-blank.svg\");\n/* harmony import */ var _checkbox_checked_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./checkbox-checked.svg */ \"./src/checkbox-checked.svg\");\n\n\n\nclass task {\n    constructor (project, task, priority) {\n        this.project = project;\n        this.task = task;\n        this.priority = priority;\n    }\n\n\n    //trying to make this to make a sample task list item.\n    //right now i think it doesnt have the correct id's for the task divs\n    taskDomMaker() {\n        const main = document.getElementById(\"tasks\");\n        const checkboxBlankAsset = new Image();\n        checkboxBlankAsset.src = _checkbox_blank_svg__WEBPACK_IMPORTED_MODULE_0__;\n        const checkboxCheckedAsset = new Image();\n        checkboxCheckedAsset.src = _checkbox_checked_svg__WEBPACK_IMPORTED_MODULE_1__;\n\n        let taskListItem = document.createElement(\"div\");\n        let priorityAsset = document.createElement(\"div\");\n        let checkboxDiv = document.createElement(\"div\");\n        let checkboxAsset = document.createElement(\"img\");\n\n        taskListItem.id = \"task\";\n        priorityAsset.id = \"priority-box\";\n        checkboxDiv.id = \"checkbox\";\n        checkboxAsset.src = checkboxBlankAsset;\n        checkboxAsset.alt = \"blank checkbox\";\n\n        //just to test\n        main.append(priorityAsset, checkboxDiv);\n        checkboxDiv.appendChild(checkboxAsset);\n        priorityAsset.textContent = \"!\";\n        taskListItem.textContent = this.task;\n    }\n\n    printTask() {\n    }\n}\n\n//# sourceURL=webpack://to-do-list/./src/task.js?");
+
+/***/ }),
+
+/***/ "./src/checkbox-blank.svg":
+/*!********************************!*\
+  !*** ./src/checkbox-blank.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"e3b6ef0fc8b1ecd5d1a9.svg\";\n\n//# sourceURL=webpack://to-do-list/./src/checkbox-blank.svg?");
+
+/***/ }),
+
+/***/ "./src/checkbox-checked.svg":
+/*!**********************************!*\
+  !*** ./src/checkbox-checked.svg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"7676b8a7abec26be4dd8.svg\";\n\n//# sourceURL=webpack://to-do-list/./src/checkbox-checked.svg?");
 
 /***/ })
 
@@ -181,6 +201,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +227,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

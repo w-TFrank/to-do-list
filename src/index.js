@@ -1,6 +1,8 @@
 import "./style.css";
 import task from "./task";
+import checkboxBlank from "./checkbox-blank.svg";
+import checkboxChecked from "./checkbox-checked.svg";
 
-let test = new task("test", "this is a test", "high");
+let sampleTask = new task("sample project", "this is a sample task", "high");
 
-test.printOneLine();
+sampleTask.taskDomMaker();
